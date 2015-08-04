@@ -1,0 +1,27 @@
+#macro(mainLayout)
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>$title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<header>
+    <div class="content">
+        <img src="spark_logo.png" alt="Spark Logo">
+    </div>
+</header>
+<main>
+    <div class="content">
+        $!bodyContent##
+    </div>
+</main>
+<footer>This is an example footer, feel free to change it</footer>
+</body>
+
+</html>
+#end

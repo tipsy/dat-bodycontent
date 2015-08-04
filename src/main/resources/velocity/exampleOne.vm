@@ -1,0 +1,5 @@
+#parse("/velocity/exampleLayout.vm")
+#@mainLayout()
+    <h1>Example One</h1>
+    <a href="/exampleTwo">Go to Example Two</a>
+#end
